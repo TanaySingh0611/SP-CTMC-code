@@ -107,8 +107,9 @@ pow1=tpm1**100
 print(pow1)
 
 
+a_mat=np.zeros((n,n))
 t=float(input("Enter t value "))
 for i in range (n):
     for j in range (n):
-        g_mat[i][j]=math.exp(g_mat[i][j]*t)
-print(g_mat)
+        a_mat[i][j]=math.exp(g_mat[i][j]*t)
+print(a_mat)
